@@ -381,7 +381,7 @@ public class Player implements matchup.sim.Player {
             else {
                 for (int i = l; i < availableRows.size(); i++) {
                     swap(availableRows, l, i);
-                    permuteRow(availableRows, l + 1, availableRows.size()); 
+                    permuteRow(availableRows, l + 1, score); 
                     swap(availableRows, l, i); 
                 } 
             } 
